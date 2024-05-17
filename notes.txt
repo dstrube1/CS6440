@@ -1,0 +1,45 @@
+4 Vs of data problems:
+variety
+velocity
+veracity
+value
+
+chronic disease drives cost of us healthcare
+35% of spending is by 8.7% of ppl with 5+ chronic conditions
+
+PCMH: patient centered medical home
+
+ACP: american college of physicians
+
+AAFP: american academy of family physicians
+
+CCHIT: certification commission for health information technology
+7 Processes advocated by CCHIT:
+1- care coordination
+2- cohort management
+3- patient relationship management
+4- clinician engagement
+5- financial management
+6- reporting
+7- knowledge management
+
+4 requirements of ACO HIT infrastructure:
+1- ability to share healthcare info b/n & among internal and external providers, patients, and their designated caregivers
+2- data integration from clinical, administrative, financial, & patient sources
+3- attention to HIT functions that support patient safety
+4- strong privacy and security protections
+
+AAFP: American academy of family practice
+
+IOM: institute of medicine, healthcare arm of national academy of science, founded in 1863 under pres lincoln
+=> Academy of Medicine (new name)
+
+ONC(HIT): Office of National Coordinator of Health Information Technology
+
+PEF: patient engagement framework
+
+SMART: Substitutable Medical Applications and Resuable Technology
+
+USPSTF: United States Preventive Services Taskforce
+
+USCDI: United States Core Data for Interoperability

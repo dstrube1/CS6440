@@ -1,0 +1,3021 @@
+{
+  "resourceType": "Bundle",
+  "id": "c254fdb0-a7e7-4d96-97d8-35d0fc2450b1",
+  "meta": {
+    "lastUpdated": "2021-04-09T18:06:59.161-04:00"
+  },
+  "type": "searchset",
+  "total": 105,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner"
+    },
+    {
+      "relation": "next",
+      "url": "https://launch.smarthealthit.org/v/r4/fhir?_getpages=c254fdb0-a7e7-4d96-97d8-35d0fc2450b1&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/e443ac58-8ece-4385-8d55-775c1b8f3a37",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "e443ac58-8ece-4385-8d55-775c1b8f3a37",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:05.295-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 208
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "310"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Angulo",
+            "given": [
+              "Sara"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "243 CHARLES STREET"
+            ],
+            "city": "BOSTON",
+            "state": "MA",
+            "postalCode": "02114",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/21deb55c-2cda-4306-947d-001412452463",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "21deb55c-2cda-4306-947d-001412452463",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:49.803-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 3407
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "260"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Bradtke",
+            "given": [
+              "Peggie"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "271 CAREW STREET"
+            ],
+            "city": "SPRINGFIELD",
+            "state": "MA",
+            "postalCode": "01104",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/60c9fe63-d9e6-4e5e-8d5c-f91b7fc75419",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "60c9fe63-d9e6-4e5e-8d5c-f91b7fc75419",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.221-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1441
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "80"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Kub",
+            "given": [
+              "Felicitas"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "2100 DORCHESTER AVENUE"
+            ],
+            "city": "BOSTON",
+            "state": "MA",
+            "postalCode": "02124",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/fd7a737e-1ac5-4c4e-89cd-1c07da4ca1c2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "fd7a737e-1ac5-4c4e-89cd-1c07da4ca1c2",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:49.673-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2387
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "280"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Weimann",
+            "given": [
+              "Carol"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "55 FRUIT STREET"
+            ],
+            "city": "BOSTON",
+            "state": "MA",
+            "postalCode": "02114",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/db3579c6-6a1d-49ab-9ed8-60a4a8c04ec5",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "db3579c6-6a1d-49ab-9ed8-60a4a8c04ec5",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:49.750-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1492
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "440"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Heathcote",
+            "given": [
+              "Charisse"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "199 REEDSDALE ROAD"
+            ],
+            "city": "MILTON",
+            "state": "MA",
+            "postalCode": "02186",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/1cb51157-8083-410f-87d1-07a94629222a",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1cb51157-8083-410f-87d1-07a94629222a",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:49.871-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 3469
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "290"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Schroeder",
+            "given": [
+              "Jonah"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "88 WASHINGTON STREET"
+            ],
+            "city": "TAUNTON",
+            "state": "MA",
+            "postalCode": "02780",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/f256d3ba-bb70-4613-a631-825d500c57fa",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f256d3ba-bb70-4613-a631-825d500c57fa",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:49.884-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1028
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "230"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Hegmann",
+            "given": [
+              "Racquel"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "107 LINCOLN STREET"
+            ],
+            "city": "WORCESTER",
+            "state": "MA",
+            "postalCode": "01605",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/03dfaa2f-a54b-4acf-bd54-80defef6ed51",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "03dfaa2f-a54b-4acf-bd54-80defef6ed51",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.012-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2077
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "350"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Predovic",
+            "given": [
+              "Samuel"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "133 OLD ROAD TO 9 ACRE CORNER"
+            ],
+            "city": "W CONCORD",
+            "state": "MA",
+            "postalCode": "01742",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/63003abb-3924-46df-a75a-0a1f42733189",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "63003abb-3924-46df-a75a-0a1f42733189",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:50.157-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2481
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "480"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Deckow",
+            "given": [
+              "Blake"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1153 CENTRE STREET"
+            ],
+            "city": "BOSTON",
+            "state": "MA",
+            "postalCode": "02130",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/85aeca59-6261-4704-a2e4-1846ec5831a6",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "85aeca59-6261-4704-a2e4-1846ec5831a6",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:50.633-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 3008
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "600"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Reichert",
+            "given": [
+              "Levi"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "300 LONGWOOD AVENUE"
+            ],
+            "city": "BOSTON",
+            "state": "MA",
+            "postalCode": "02115",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/a6dfe8e5-f65e-4eda-a572-850f7ac0d7cf",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a6dfe8e5-f65e-4eda-a572-850f7ac0d7cf",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:50.888-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2158
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "370"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Hansen",
+            "given": [
+              "Jeri"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "125 PARKER HILL AVENUE"
+            ],
+            "city": "BOSTON",
+            "state": "MA",
+            "postalCode": "02120",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/f4bf5265-8d8e-4055-a4e5-b34853f1099f",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f4bf5265-8d8e-4055-a4e5-b34853f1099f",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.297-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2910
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "0"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Dibbert",
+            "given": [
+              "Noe"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "60 HOSPITAL ROAD"
+            ],
+            "city": "LEOMINSTER",
+            "state": "MA",
+            "postalCode": "01453",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/45437745-336e-40fe-b8dd-5790e7859f6e",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "45437745-336e-40fe-b8dd-5790e7859f6e",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.393-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2210
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "120"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Legros",
+            "given": [
+              "Annette"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "25 HIGHLAND AVENUE"
+            ],
+            "city": "NEWBURYPORT",
+            "state": "MA",
+            "postalCode": "01950",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/7cdcee56-a0c0-419c-98fd-a7ccc981f650",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "7cdcee56-a0c0-419c-98fd-a7ccc981f650",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.785-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1437
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "400"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Bode",
+            "given": [
+              "Rex"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "200 GROTON ROAD"
+            ],
+            "city": "AYER",
+            "state": "MA",
+            "postalCode": "01432",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/0e99785d-8f2a-45c7-848c-d6b31d1aa50e",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "0e99785d-8f2a-45c7-848c-d6b31d1aa50e",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.969-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2645
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "520"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Kassulke",
+            "given": [
+              "June"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "41 & 45 MALL ROAD"
+            ],
+            "city": "BURLINGTON",
+            "state": "MA",
+            "postalCode": "01803",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/47ebed92-735d-41b9-86f6-7fdb5f41a905",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "47ebed92-735d-41b9-86f6-7fdb5f41a905",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:53.012-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1199
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "170"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Osinski",
+            "given": [
+              "Maryjo"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "736 CAMBRIDGE STREET"
+            ],
+            "city": "BRIGHTON",
+            "state": "MA",
+            "postalCode": "02135",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/511ab45b-a020-4c24-93ff-91936483cc55",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "511ab45b-a020-4c24-93ff-91936483cc55",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:53.386-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 201
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93490"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Balistreri",
+            "given": [
+              "Royal"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "66 SOUTH WASHINGTON STREET"
+            ],
+            "city": "NORTH ATTLEBORO",
+            "state": "MA",
+            "postalCode": "2760",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/6771c9e4-5a7d-4d20-b1c0-88b219f0661b",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "6771c9e4-5a7d-4d20-b1c0-88b219f0661b",
+        "meta": {
+          "versionId": "12",
+          "lastUpdated": "2021-04-07T02:56:53.421-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1585
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "510"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Brakus",
+            "given": [
+              "Elroy"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "55 LAKE AVENUE NORTH"
+            ],
+            "city": "WORCESTER",
+            "state": "MA",
+            "postalCode": "01655",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"12\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/e92c468f-8f1b-4d5e-bf96-76dc945d2e8c",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "e92c468f-8f1b-4d5e-bf96-76dc945d2e8c",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:54.653-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2099
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "180"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Effertz",
+            "given": [
+              "Lloyd"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "725 NORTH STREET"
+            ],
+            "city": "PITTSFIELD",
+            "state": "MA",
+            "postalCode": "01201",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/c3c53ad9-4c82-406d-9b5b-b4f5e97e9410",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "c3c53ad9-4c82-406d-9b5b-b4f5e97e9410",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-07T02:56:55.533-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2727
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "300"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Hettinger",
+            "given": [
+              "Miquel"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "363 HIGHLAND AVENUE"
+            ],
+            "city": "FALL RIVER",
+            "state": "MA",
+            "postalCode": "02720",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/8f18b4c3-0191-4054-8f00-b5d3f6016bfc",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "8f18b4c3-0191-4054-8f00-b5d3f6016bfc",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:57.623-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1557
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "360"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Bauch",
+            "given": [
+              "Macie"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "330 BROOKLINE AVENUE"
+            ],
+            "city": "BOSTON",
+            "state": "MA",
+            "postalCode": "02215",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/30793bd7-6605-40fe-bc4f-f41957b72d53",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "30793bd7-6605-40fe-bc4f-f41957b72d53",
+        "meta": {
+          "versionId": "8",
+          "lastUpdated": "2021-04-07T02:56:57.774-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 635
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "70"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Weissnat",
+            "given": [
+              "Pandora"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "164 HIGH STREET"
+            ],
+            "city": "GREENFIELD",
+            "state": "MA",
+            "postalCode": "01301",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"8\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/a6ba35b7-22d7-4bea-b87b-afbc9ff2f2ee",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a6ba35b7-22d7-4bea-b87b-afbc9ff2f2ee",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:06.204-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 2108
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "380"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Olson",
+            "given": [
+              "Wynell"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "14 PROSPECT STREET"
+            ],
+            "city": "MILFORD",
+            "state": "MA",
+            "postalCode": "01757",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/735350c7-6700-45db-b348-c2f2c54ee864",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "735350c7-6700-45db-b348-c2f2c54ee864",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:06.970-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 84
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93300"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Turner",
+            "given": [
+              "America"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "111 GROSSMAN DRIVE"
+            ],
+            "city": "BRAINTREE",
+            "state": "MA",
+            "postalCode": "2184",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/34ef92a2-f1a5-4324-b274-4ccf96f9f2d1",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "34ef92a2-f1a5-4324-b274-4ccf96f9f2d1",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:59.956-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1825
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "60"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Stark",
+            "given": [
+              "Antonia"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "30 LOCUST STREET"
+            ],
+            "city": "NORTHAMPTON",
+            "state": "MA",
+            "postalCode": "01060",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/bdde2c47-34f0-45ca-861b-3d14463150d1",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "bdde2c47-34f0-45ca-861b-3d14463150d1",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:00.472-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 1161
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "250"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Wisozk",
+            "given": [
+              "Cecil"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "115 WEST SILVER STREET"
+            ],
+            "city": "WESTFIELD",
+            "state": "MA",
+            "postalCode": "01085",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/908ecf01-c7b6-449f-860e-7960f6327e44",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "908ecf01-c7b6-449f-860e-7960f6327e44",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:02.745-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 350
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93500"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Herzog",
+            "given": [
+              "Zack"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "444 MONTGOMERY STREET"
+            ],
+            "city": "CHICOPEE",
+            "state": "MA",
+            "postalCode": "1020",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/6b9dfb87-3ffb-4a21-9709-2810aa418642",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "6b9dfb87-3ffb-4a21-9709-2810aa418642",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:03.869-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 249
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93540"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Johns",
+            "given": [
+              "Gregg"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1 HARBORSIDE DRIVE"
+            ],
+            "city": "EAST BOSTON",
+            "state": "MA",
+            "postalCode": "2128",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/b0aca4f9-4d6a-41b9-87ed-eeb16ee40172",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "b0aca4f9-4d6a-41b9-87ed-eeb16ee40172",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:10.405-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 15
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93340"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Wilkinson",
+            "given": [
+              "Judson"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "500 SALEM STREET"
+            ],
+            "city": "WILMINGTON",
+            "state": "MA",
+            "postalCode": "1887",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/f862f10d-3d9e-4394-975f-0b2eef186919",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f862f10d-3d9e-4394-975f-0b2eef186919",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:14.425-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 169
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "780"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Lynch",
+            "given": [
+              "Isaura"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "175 Elm Street"
+            ],
+            "city": "New Bedford",
+            "state": "MA",
+            "postalCode": "02740",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/3c82000e-9913-411d-9359-01cec5daa885",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "3c82000e-9913-411d-9359-01cec5daa885",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:16.425-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 47
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93510"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Kirlin",
+            "given": [
+              "Maudie"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "250 PARADISE ROAD"
+            ],
+            "city": "SWAMPSCOTT",
+            "state": "MA",
+            "postalCode": "1907",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/84c0b5d1-e169-4280-94cf-410f9befb33d",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "84c0b5d1-e169-4280-94cf-410f9befb33d",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:21.097-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 262
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93260"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "O'Conner",
+            "given": [
+              "Gene"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1399 WASHINGTON STREET"
+            ],
+            "city": "HANOVER",
+            "state": "MA",
+            "postalCode": "2339",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/49c33385-7b23-43f0-8330-8442a13b298c",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "49c33385-7b23-43f0-8330-8442a13b298c",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:33.659-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 19
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93520"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Rodrígez",
+            "given": [
+              "Sergio"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "51 LOCUST STREET"
+            ],
+            "city": "NORTHAMPTON",
+            "state": "MA",
+            "postalCode": "1060",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/4c12136a-9018-418f-acea-1235ea6582de",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "4c12136a-9018-418f-acea-1235ea6582de",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:26.154-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 106
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93410"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Reichert",
+            "given": [
+              "Paula"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1 ESSEX CENTER DRIVE"
+            ],
+            "city": "PEABODY",
+            "state": "MA",
+            "postalCode": "1960",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/2b92eda4-fbe2-46c9-9ed2-64db17cb632d",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "2b92eda4-fbe2-46c9-9ed2-64db17cb632d",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:30.202-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 60
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93440"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Powlowski",
+            "given": [
+              "Merle"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "9 HOPE AVENUE"
+            ],
+            "city": "WALTHAM",
+            "state": "MA",
+            "postalCode": "2453",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/542a457d-c8ef-4830-aa89-c68395cd7bfa",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "542a457d-c8ef-4830-aa89-c68395cd7bfa",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:58:21.717-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 31
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93550"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Kunze",
+            "given": [
+              "Corey"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "106 UNITED STATES HIGHWAY 44"
+            ],
+            "city": "RAYNHAM",
+            "state": "MA",
+            "postalCode": "2767",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/2ee48909-f016-4f03-a7c8-62f525b54269",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "2ee48909-f016-4f03-a7c8-62f525b54269",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2019-06-06T02:52:18.557-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 13
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93350"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Bayer",
+            "given": [
+              "Rudy"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "489 BEARSES WAY"
+            ],
+            "city": "HYANNIS",
+            "state": "MA",
+            "postalCode": "2601",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/5ff648a6-1ceb-432f-8edc-f10ca09087f3",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "5ff648a6-1ceb-432f-8edc-f10ca09087f3",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:58:41.818-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 15
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93480"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Ritchie",
+            "given": [
+              "Katherine"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "140 CARANDO DRIVE"
+            ],
+            "city": "SPRINGFIELD",
+            "state": "MA",
+            "postalCode": "1104",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/de786289-dd70-4048-b126-b5fa2121471f",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "de786289-dd70-4048-b126-b5fa2121471f",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:59:07.256-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 48
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93580"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Konopelski",
+            "given": [
+              "Isadora"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "170 GOVERNORS AVENUE"
+            ],
+            "city": "MEDFORD",
+            "state": "MA",
+            "postalCode": "2155",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/1a99934f-a555-499e-9470-fcff6cca596b",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1a99934f-a555-499e-9470-fcff6cca596b",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:59:03.028-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 25
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93230"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Pfannerstill",
+            "given": [
+              "Hannah"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "629 PLEASANT STREET"
+            ],
+            "city": "BROCKTON",
+            "state": "MA",
+            "postalCode": "2301",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/ca217b48-6adf-42d5-b259-76dcc2eca244",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "ca217b48-6adf-42d5-b259-76dcc2eca244",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T03:00:34.234-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 8
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93170"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Feil",
+            "given": [
+              "Jeremy"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "5 INDUSTRIAL DRIVE"
+            ],
+            "city": "MASHPEE",
+            "state": "MA",
+            "postalCode": "2649",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/36a6e15b-7345-42ae-8a59-7a35059ebb47",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "36a6e15b-7345-42ae-8a59-7a35059ebb47",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-07T02:56:50.010-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 8122
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "100"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Upton",
+            "given": [
+              "Isaac"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "795 MIDDLE STREET"
+            ],
+            "city": "FALL RIVER",
+            "state": "MA",
+            "postalCode": "02721",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/6d705d81-8546-43b2-b336-31a282128f2d",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "6d705d81-8546-43b2-b336-31a282128f2d",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.106-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 5368
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "160"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Hilpert",
+            "given": [
+              "Sharyl"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "81 HIGHLAND AVENUE"
+            ],
+            "city": "SALEM",
+            "state": "MA",
+            "postalCode": "01970",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/7be815fb-6326-4163-9747-10cce3ee958e",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "7be815fb-6326-4163-9747-10cce3ee958e",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2019-06-06T02:51:26.905-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 7
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93470"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Huels",
+            "given": [
+              "Tiesha"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "489 BERNARDSTON ROAD"
+            ],
+            "city": "GREENFIELD",
+            "state": "MA",
+            "postalCode": "1301",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/22d56828-df1d-4739-82b9-45a3757b3a5f",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "22d56828-df1d-4739-82b9-45a3757b3a5f",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:56:51.909-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 4351
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "200"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Nicolas",
+            "given": [
+              "Barry"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "680 CENTER STREET"
+            ],
+            "city": "BROCKTON",
+            "state": "MA",
+            "postalCode": "02302",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/cce1f8c1-78b2-4042-94a2-27f8d9faae5f",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cce1f8c1-78b2-4042-94a2-27f8d9faae5f",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2019-06-06T02:51:40.047-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 346
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "330"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Blick",
+            "given": [
+              "Harrison"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "70 EAST STREET"
+            ],
+            "city": "METHUEN",
+            "state": "MA",
+            "postalCode": "01844",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/9f1403b1-03d8-4b93-8203-ce96e3157deb",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "9f1403b1-03d8-4b93-8203-ce96e3157deb",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2019-06-06T02:51:42.172-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 549
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "210"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Walsh",
+            "given": [
+              "Janean"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "201 HIGHLAND STREET"
+            ],
+            "city": "CLINTON",
+            "state": "MA",
+            "postalCode": "01510",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/713395a6-c0cd-426f-a817-e15e0ce8ee0e",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "713395a6-c0cd-426f-a817-e15e0ce8ee0e",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2019-06-06T02:51:42.499-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 27
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93270"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Wehner",
+            "given": [
+              "Brenna"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "808 MAIN STREET"
+            ],
+            "city": "WALTHAM",
+            "state": "MA",
+            "postalCode": "2451",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/7f2e49e4-69c3-4aab-8819-7f52364928c0",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "7f2e49e4-69c3-4aab-8819-7f52364928c0",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-07T02:57:11.281-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 11
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "93430"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Heaney",
+            "given": [
+              "Carlota"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1 TROWBRIDGE ROAD"
+            ],
+            "city": "BUZZARDS BAY",
+            "state": "MA",
+            "postalCode": "2532",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Practitioner/7f81ffc7-c358-4bb8-ad65-cf1f2508b743",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "7f81ffc7-c358-4bb8-ad65-cf1f2508b743",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2019-06-06T02:52:15.921-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 166
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "130"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Muller",
+            "given": [
+              "Avery"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "40 WRIGHT STREET"
+            ],
+            "city": "PALMER",
+            "state": "MA",
+            "postalCode": "01069",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    }
+  ]
+}

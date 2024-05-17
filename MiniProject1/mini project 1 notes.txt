@@ -1,0 +1,24 @@
+https://gatech.instructure.com/courses/171620/assignments/662732
+
+https://gatech.instructure.com/courses/171620/pages/public-and-population-health-playlist
+
+public health: world health conditions
+collective action
+social factors
+aggregate and analyze data
+where you live and work
+social norms of culture
+types of health care have access to
+exposure to diseases and stressors in environment
+disparate data sources
+syndromic surveillance system
+
+Centers for Disease Control and prevention - CDC - federal agency charged with protecting and improving public health, but generally does not collect health surveillance  information directly
+
+US Health surveillance system relies on established partnerships with local agencies
+
+Utilizing Machine Learning to Help Combat Cardiovascular Disease
+
+1- Use ML to help solve a problem (e.g. cardiovascular disease) with public health via voluntary patient data collection (constant blood pressure measurement, daily survey: what medications they are on or have been on, for how long, how often they take them, what they ate today, length and type of exercise, income, location of residence, location of employment, any date of last heart attack, date of last stroke, )
+
+2- make the results of the work available to all EMRs via JSON & XML

@@ -1,0 +1,257 @@
+{
+  "resourceType": "Bundle",
+  "id": "1b7d74e2-24aa-4169-ad72-0ff19f151f0e",
+  "meta": {
+    "lastUpdated": "2021-04-09T20:59:55.932-04:00"
+  },
+  "type": "searchset",
+  "total": 5,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://launch.smarthealthit.org/v/r4/fhir/MedicationRequest?patient=87a339d0-8cae-418e-89c7-8651e6aab3c6"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/MedicationRequest/c9af383e-1e80-461a-b018-2c95592a0425",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "c9af383e-1e80-461a-b018-2c95592a0425",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-06T03:14:34.628-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "stopped",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1534809",
+              "display": "168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System"
+            }
+          ],
+          "text": "168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/3a61244e-69e7-4270-8f70-2a7a927e00aa"
+        },
+        "authoredOn": "2010-09-06T23:17:40+00:00",
+        "requester": {
+          "reference": "Practitioner/6d705d81-8546-43b2-b336-31a282128f2d"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/MedicationRequest/c6845e69-e8cb-4379-9c1a-ba795bc435d4",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "c6845e69-e8cb-4379-9c1a-ba795bc435d4",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-06T03:12:01.606-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "stopped",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "389221",
+              "display": "Etonogestrel 68 MG Drug Implant"
+            }
+          ],
+          "text": "Etonogestrel 68 MG Drug Implant"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/b7fa52e1-22b8-40e9-b398-2883ced5fdde"
+        },
+        "authoredOn": "2013-08-21T23:17:40+00:00",
+        "requester": {
+          "reference": "Practitioner/6d705d81-8546-43b2-b336-31a282128f2d"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/MedicationRequest/3eb27b6b-199a-4ec1-a8e4-66fe8a4600cb",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "3eb27b6b-199a-4ec1-a8e4-66fe8a4600cb",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-06T03:11:20.121-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "stopped",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1043400",
+              "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+            }
+          ],
+          "text": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/e15a8088-52d9-4d68-8f8a-e0ecefe67e1c"
+        },
+        "authoredOn": "2015-03-05T23:17:40+00:00",
+        "requester": {
+          "reference": "Practitioner/6d705d81-8546-43b2-b336-31a282128f2d"
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/3d323690-7277-40b1-b569-6e5d4087cd96"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/MedicationRequest/51287876-23ff-4cd9-a73c-d13b87dd03df",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "51287876-23ff-4cd9-a73c-d13b87dd03df",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-06T03:11:10.324-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "stopped",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "748962",
+              "display": "Camila 28 Day Pack"
+            }
+          ],
+          "text": "Camila 28 Day Pack"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/a31b68a1-4f85-4f30-9d6d-ffda2520bdf2"
+        },
+        "authoredOn": "2012-08-26T23:17:40+00:00",
+        "requester": {
+          "reference": "Practitioner/6d705d81-8546-43b2-b336-31a282128f2d"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/MedicationRequest/b83cf849-96da-4b59-912e-93b9bfed7d2b",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "b83cf849-96da-4b59-912e-93b9bfed7d2b",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2021-04-06T03:11:21.707-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "860975",
+              "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+            }
+          ],
+          "text": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/9190e037-80a7-431f-b555-6b71ec3e089b"
+        },
+        "authoredOn": "2001-03-14T23:17:40+00:00",
+        "requester": {
+          "reference": "Practitioner/6d705d81-8546-43b2-b336-31a282128f2d"
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/1a0a6cb0-6d82-4054-a3bc-8f64ae3694dd"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"5\""
+      }
+    }
+  ]
+}

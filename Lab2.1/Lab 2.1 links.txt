@@ -1,0 +1,42 @@
+Lab 2.1 links
+
+International Classification of Diseases - ICD:
+	ICD-10-CM
+https://www.cdc.gov/nchs/icd/icd10cm.htm
+	ICD Version 2015
+https://icd.who.int/browse10/2015/en
+	FHIR ICD Valueset
+http://hl7.org/fhir/valueset-icd-10.html
+	ICD-11
+https://icd.who.int/dev11/l-m/en
+
+https://www.hl7.org/fhir/valueset-icd-10.html
+===
+
+Current Procedural Terminology - CPT:
+	CPT Wiki
+https://en.wikipedia.org/wiki/Current_Procedural_Terminology
+	CPT Code Relative Value Search
+https://cptsearch.ama-assn.org/CptSearch/user/search/cptSearch.do
+===
+
+Logical Observation Identifiers Names and Codes - LOINC
+https://search.loinc.org/searchLOINC/
+===
+
+National Drug Code - NDC
+
+	openFDA
+https://open.fda.gov/apis/drug/ndc/how-to-use-the-endpoint/
+	National Drug Code Directory
+https://www.fda.gov/drugs/drug-approvals-and-databases/national-drug-code-directory
+
+ndclist.com
+===
+
+RxNorm
+https://www.nlm.nih.gov/research/umls/rxnorm/index.html
+===
+
+Systematized Nomenclature of Medicine - Clinical Terms - SNOMED-CT
+https://browser.ihtsdotools.org/?

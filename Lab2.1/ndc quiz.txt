@@ -1,0 +1,21 @@
+https://api.fda.gov/drug/ndc.json?count=dea_schedule
+term
+b
+2021
+c,d
+d
+a
+c
+not 568; not 569; not 1; not 0; ?
+daily
+a
+
+#9:
+https://api.fda.gov/drug/event.json?search=receivedate:[20170101+TO+20180101]+AND+patient.drug.drugindication:diabetes+mellitus&count=primarysource.reportercountry.exact
+
+https://api.fda.gov/drug/event.json?search=receivedate:[20170101+TO+20180101]+AND+_missing_:companynumb+AND+patient.drug.drugindication:diabetes+mellitus&count=primarysource.reportercountry.exact
+
+https://api.fda.gov/drug/event.json?search=(receivedate:[20040101+TO+20210213])+AND+_missing_:companynumb&count=primarysource.reportercountry.exact
+
+
+

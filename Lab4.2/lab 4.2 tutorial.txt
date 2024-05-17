@@ -1,0 +1,15 @@
+https://login.microsoftonline.com/482198bb-ae7b-4b25-8b7a-6d7f32faa083
+https://dstrube3.azurehealthcareapis.com]
+
+https://azureforeducation.microsoft.com/devtools
+https://portal.azure.com/#home
+
+https://dstrube3.azurehealthcareapis.com/metadata
+https://docs.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-app-registration
+https://docs.microsoft.com/en-us/azure/healthcare-apis/fhir/azure-api-for-fhir-additional-settings
+
+https://login.microsoftonline.com/482198bb-ae7b-4b25-8b7a-6d7f32faa083/oauth2/?resource=https://dstrube3.azurehealthcareapis.com
+
+https://login.microsoftonline.com/482198bb-ae7b-4b25-8b7a-6d7f32faa083/oauth2/token
+
+AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: 'b427f58f-3aec-48f0-9ef0-46793ec94a18'.

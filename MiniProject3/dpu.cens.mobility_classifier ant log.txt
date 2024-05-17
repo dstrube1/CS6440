@@ -1,0 +1,76 @@
+dstrube@Davids-MacBook-Pro dpu.cens.mobility_classifier % ant clean dist-jar
+
+Buildfile: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml
+
+clean:
+
+javac:
+    [mkdir] Created dir: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+    [javac] /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml:39: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 6 source files to /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] error: Source option 6 is no longer supported. Use 7 or later.
+    [javac] error: Target option 6 is no longer supported. Use 7 or later.
+
+BUILD FAILED
+/Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml:39: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+dstrube@Davids-MacBook-Pro dpu.cens.mobility_classifier % 
+================================================================================
+[changed 6 to 7 in build.xml]
+================================================================================
+dstrube@Davids-MacBook-Pro dpu.cens.mobility_classifier % ant clean   
+Buildfile: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml
+
+clean:
+   [delete] Deleting directory /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+dstrube@Davids-MacBook-Pro dpu.cens.mobility_classifier % ant dist-jar
+Buildfile: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml
+
+javac:
+    [mkdir] Created dir: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+    [javac] /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml:39: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 6 source files to /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 7
+    [javac] warning: [options] source value 7 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 7 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+     [copy] Copying 2 files to /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+
+dist-jar:
+    [mkdir] Created dir: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/dist
+      [jar] Building jar: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/dist/omh-dpu-cens-mobility_classifier-1.0.jar
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+dstrube@Davids-MacBook-Pro dpu.cens.mobility_classifier % 
+================================================================================
+[changed 7 to 8 in build.xml]
+================================================================================
+dstrube@Davids-MacBook-Pro dpu.cens.mobility_classifier % ant clean dist-jar
+Buildfile: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml
+
+clean:
+   [delete] Deleting directory /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build
+   [delete] Deleting directory /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/dist
+
+javac:
+    [mkdir] Created dir: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+    [javac] /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build.xml:39: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 6 source files to /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 8
+    [javac] 1 warning
+     [copy] Copying 2 files to /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/build/classes
+
+dist-jar:
+    [mkdir] Created dir: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/dist
+      [jar] Building jar: /Users/dstrube/Projects/cs6440-IHI/MP3/dpu.cens.mobility_classifier/dist/omh-dpu-cens-mobility_classifier-1.0.jar
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+dstrube@Davids-MacBook-Pro dpu.cens.mobility_classifier % 

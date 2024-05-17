@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="patientDisplay col-lg-offset-3 col-lg-6">
+
+      <h3>Inactive conditions:</h3>
+      <div *ngFor="let c of conditions">
+        <div [ngClass]="{'yellow' : c.text.includes('Stroke')}">{{c.text}}</div>
+        <div class="red">
+          inactive
+        </div>
+      </div>
+
+      <!--      <h3>Clinical Impressions:</h3>-->
+      <!--      <div *ngFor="let c of this.patientService.getPatient().clinicalImpressions">-->
+      <!--        <div>{{c.code}}</div>-->
+      <!--      </div>-->
+
+      <!--      <h3>Medication requests:</h3>-->
+      <!--      <div *ngFor="let m of this.patientService.getPatient().medications">-->
+      <!--        <div>{{m.text}}</div>-->
+      <!--      </div>-->
+
+      <!--        <h3>Observations:</h3>-->
+      <!--        <div *ngFor="let o of this.patientService.getPatient().observations">-->
+      <!--          <div>{{o.text}}</div>-->
+      <!--          <div>{{o.quantitativeValue + " " + o.unit}}</div>-->
+      <!--        </div>-->
+
+      <!--        <h3>Labs:</h3>-->
+      <!--        <div *ngFor="let c of this.patientService.getPatient().conditions">-->
+      <!--          <div>{{c.text}}</div>-->
+      <!--        </div>-->
+
+      <!--        <h3>Imaging studies:</h3>-->
+      <!--        <div *ngFor="let d of this.patientService.getPatient().diagnosticImages">-->
+      <!--          <div>{{d.description}}</div>-->
+      <!--        </div>-->
+
+      <!--      <h4 *ngIf="this.patientService.patientConditions.length > 0">Patient has suffered stroke:</h4>-->
+      <!--      <h4 *ngIf="this.patientService.patientConditions.length == 0">No recorded strokes</h4>-->
+      <!--      <div *ngFor="let c of this.patientService.patientConditions">-->
+      <!--        <app-generic-card-->
+      <!--          [text]="c.text"-->
+      <!--        ></app-generic-card>-->
+      <!--      </div>-->
+    </div>
+  </div>
+</div>

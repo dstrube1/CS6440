@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="patientDisplay col-lg-offset-3 col-lg-6">
+
+
+            <h3>Medication requests:</h3>
+            <div *ngFor="let m of medications">
+              <div>{{m.text}}</div>
+            </div>
+
+
+      <!--        <h3>Labs:</h3>-->
+      <!--        <div *ngFor="let c of this.patientService.getPatient().conditions">-->
+      <!--          <div>{{c.text}}</div>-->
+      <!--        </div>-->
+
+      <!--        <h3>Imaging studies:</h3>-->
+      <!--        <div *ngFor="let d of this.patientService.getPatient().diagnosticImages">-->
+      <!--          <div>{{d.description}}</div>-->
+      <!--        </div>-->
+
+    </div>
+  </div>
+</div>

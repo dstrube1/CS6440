@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HipySpvAWTnoEBqkOijhtnIkcM3yWocSgQ5h5G8c84RHDFE3av3jgxnRgvPYr7OB+8IhxJrXwmos5RKj9grS1A==",
+  "success": true,
+  "projectFilePath": "/Users/dstrube/Projects/mHealthTap/mHealthTap.Web/mHealthTap.Web.csproj",
+  "expectedPackageFiles": [
+    "/Users/dstrube/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "/Users/dstrube/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

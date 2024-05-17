@@ -1,0 +1,891 @@
+{
+  "resourceType": "Bundle",
+  "id": "f6b4a7cd-b35c-498e-9635-af88661a23df",
+  "meta": {
+    "lastUpdated": "2021-04-09T18:51:39.385-04:00"
+  },
+  "type": "searchset",
+  "total": 15,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://launch.smarthealthit.org/v/r4/fhir/Condition?patient=87a339d0-8cae-418e-89c7-8651e6aab3c6"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/a795e732-19fe-4bb7-8667-af4cf6cefb09",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a795e732-19fe-4bb7-8667-af4cf6cefb09",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:14:22.936-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195662009",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/65ebd4dd-a7bc-4a2f-a23f-021bea35e770"
+        },
+        "onsetDateTime": "2014-04-22T23:17:40+00:00",
+        "abatementDateTime": "2014-05-05T23:17:40+00:00",
+        "recordedDate": "2014-04-22T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/40730c37-9038-435b-8d9a-d2019d15e8a2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "40730c37-9038-435b-8d9a-d2019d15e8a2",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:14:05.463-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "444814009",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/97be6757-064b-4ab1-8a29-002e5baddb6c"
+        },
+        "onsetDateTime": "2017-10-22T23:17:40+00:00",
+        "abatementDateTime": "2017-11-05T23:17:40+00:00",
+        "recordedDate": "2017-10-22T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/aed663ad-9161-412c-bab0-392e89da8039",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "aed663ad-9161-412c-bab0-392e89da8039",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:13:55.996-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80394007",
+              "display": "Hyperglycemia (disorder)"
+            }
+          ],
+          "text": "Hyperglycemia (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/2df63e95-32d5-47ab-b428-d680a122d0d0"
+        },
+        "onsetDateTime": "2004-03-17T23:17:40+00:00",
+        "recordedDate": "2004-03-17T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/afdf14ba-3b6a-44c7-b684-67131f41b802",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "afdf14ba-3b6a-44c7-b684-67131f41b802",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:13:04.439-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "271737000",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/2b35fc79-ac6d-4e92-8104-fc62bd30aefb"
+        },
+        "onsetDateTime": "1987-04-01T23:17:40+00:00",
+        "recordedDate": "1987-04-01T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/a1b4deb7-3b61-4af5-bb7b-1fe0c0b0f65b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a1b4deb7-3b61-4af5-bb7b-1fe0c0b0f65b",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:13:02.562-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "55680006",
+              "display": "Drug overdose"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/e6b19ba7-5cc5-4dda-b371-8086041afeb1"
+        },
+        "onsetDateTime": "1993-07-22T23:17:40+00:00",
+        "recordedDate": "1993-07-22T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/3976bf4f-040d-472e-bd3c-fc1fb222f79c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3976bf4f-040d-472e-bd3c-fc1fb222f79c",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:12:47.133-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "368581000119106",
+              "display": "Neuropathy due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Neuropathy due to type 2 diabetes mellitus (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/b318f881-1446-437b-921e-3aa59e040ba6"
+        },
+        "onsetDateTime": "1991-05-29T23:17:40+00:00",
+        "recordedDate": "1991-05-29T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/c4ba3c20-b56c-4064-a9de-f04354b91732",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c4ba3c20-b56c-4064-a9de-f04354b91732",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:12:12.481-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "82423001",
+              "display": "Chronic pain"
+            }
+          ],
+          "text": "Chronic pain"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/06e321f4-540f-4f13-aafe-692a0b214ea8"
+        },
+        "onsetDateTime": "1992-05-14T23:17:40+00:00",
+        "recordedDate": "1992-05-14T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/1a0a6cb0-6d82-4054-a3bc-8f64ae3694dd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1a0a6cb0-6d82-4054-a3bc-8f64ae3694dd",
+        "meta": {
+          "versionId": "8",
+          "lastUpdated": "2021-04-06T03:11:21.681-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/2b35fc79-ac6d-4e92-8104-fc62bd30aefb"
+        },
+        "onsetDateTime": "1987-04-01T23:17:40+00:00",
+        "recordedDate": "1987-04-01T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"8\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/2eb4e29a-86f5-4d43-9dbe-f990699fdf0c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2eb4e29a-86f5-4d43-9dbe-f990699fdf0c",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:10:51.440-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "237602007",
+              "display": "Metabolic syndrome X (disorder)"
+            }
+          ],
+          "text": "Metabolic syndrome X (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/a5dcdde3-fa3c-4b54-a781-904f8782464a"
+        },
+        "onsetDateTime": "1990-04-04T23:17:40+00:00",
+        "recordedDate": "1990-04-04T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/be3e0998-c56e-42d2-91b4-1003ee418df1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "be3e0998-c56e-42d2-91b4-1003ee418df1",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:10:49.259-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "302870006",
+              "display": "Hypertriglyceridemia (disorder)"
+            }
+          ],
+          "text": "Hypertriglyceridemia (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/a5dcdde3-fa3c-4b54-a781-904f8782464a"
+        },
+        "onsetDateTime": "1990-04-04T23:17:40+00:00",
+        "recordedDate": "1990-04-04T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/c1832343-ca72-4cbb-9267-186eb6e31610",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c1832343-ca72-4cbb-9267-186eb6e31610",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:06:31.633-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "196416002",
+              "display": "Impacted molars"
+            }
+          ],
+          "text": "Impacted molars"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/54e47965-5c3b-446e-8e74-5fd441e32f9b"
+        },
+        "onsetDateTime": "1992-09-25T23:17:40+00:00",
+        "recordedDate": "1992-09-25T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/1e149f49-f818-4b0f-a650-0159ac1ca78c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1e149f49-f818-4b0f-a650-0159ac1ca78c",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:04:36.739-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195662009",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/35a08894-a351-4271-8500-d77792cb8b2e"
+        },
+        "onsetDateTime": "2012-12-19T23:17:40+00:00",
+        "abatementDateTime": "2012-12-27T23:17:40+00:00",
+        "recordedDate": "2012-12-19T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/d7868ac2-7201-4cdf-84de-3150ab62115c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d7868ac2-7201-4cdf-84de-3150ab62115c",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:04:30.817-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "124171000119105",
+              "display": "Chronic intractable migraine without aura"
+            }
+          ],
+          "text": "Chronic intractable migraine without aura"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/4bbee509-8176-4722-9cb0-a9abb252cb02"
+        },
+        "onsetDateTime": "1991-12-06T23:17:40+00:00",
+        "recordedDate": "1991-12-06T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/fa9ca4ce-f122-451e-924f-5c91154c9875",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "fa9ca4ce-f122-451e-924f-5c91154c9875",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:04:21.262-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "15777000",
+              "display": "Prediabetes"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/33e19883-1395-4d80-baa2-78f679ddcebb"
+        },
+        "onsetDateTime": "1984-03-28T23:17:40+00:00",
+        "recordedDate": "1984-03-28T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Condition/3d323690-7277-40b1-b569-6e5d4087cd96",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3d323690-7277-40b1-b569-6e5d4087cd96",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:02:20.496-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "10509002",
+              "display": "Acute bronchitis (disorder)"
+            }
+          ],
+          "text": "Acute bronchitis (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/e15a8088-52d9-4d68-8f8a-e0ecefe67e1c"
+        },
+        "onsetDateTime": "2015-03-05T23:17:40+00:00",
+        "abatementDateTime": "2015-03-19T23:17:40+00:00",
+        "recordedDate": "2015-03-05T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+d
+a
+mysoline
+c
+not a & b; not d; a?
+a
+Semantic Branded Drug Form
+b
+a
+b
+c
+c
+{"idGroup":{"idType":"NDC","id":"0088-2502-05","rxnormId":["847261"]}}
+596928,596932,615186 [c,d,last]
+N02AA01
+197381

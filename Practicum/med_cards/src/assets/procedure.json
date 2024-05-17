@@ -1,0 +1,473 @@
+{
+  "resourceType": "Bundle",
+  "id": "95cc9c4d-3cd8-4170-a58a-87f5c8eccb0b",
+  "meta": {
+    "lastUpdated": "2021-04-09T20:55:22.845-04:00"
+  },
+  "type": "searchset",
+  "total": 10,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://launch.smarthealthit.org/v/r4/fhir/Procedure?patient=87a339d0-8cae-418e-89c7-8651e6aab3c6"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/e5b9b7d6-1a02-4a32-ba75-5643eec2626c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e5b9b7d6-1a02-4a32-ba75-5643eec2626c",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:14:38.136-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "23426006",
+              "display": "Measurement of respiratory function (procedure)"
+            }
+          ],
+          "text": "Measurement of respiratory function (procedure)"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/e15a8088-52d9-4d68-8f8a-e0ecefe67e1c"
+        },
+        "performedPeriod": {
+          "start": "2015-03-05T23:17:40+00:00",
+          "end": "2015-03-05T23:41:40+00:00"
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/3d323690-7277-40b1-b569-6e5d4087cd96",
+            "display": "Acute bronchitis (disorder)"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/b88de195-1d6f-4e11-a978-3dbe10f27684",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b88de195-1d6f-4e11-a978-3dbe10f27684",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:14:29.924-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73761001",
+              "display": "Colonoscopy"
+            }
+          ],
+          "text": "Colonoscopy"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/7b61f1a3-63bf-4f09-8b8c-3163c9abec71"
+        },
+        "performedPeriod": {
+          "start": "2019-05-13T23:17:40+00:00",
+          "end": "2019-05-14T00:01:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/71f1d8d4-57e2-4ea6-b03e-c0620ecb447b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "71f1d8d4-57e2-4ea6-b03e-c0620ecb447b",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:13:59.698-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "169553002",
+              "display": "Insertion of subcutaneous contraceptive"
+            }
+          ],
+          "text": "Insertion of subcutaneous contraceptive"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/b7fa52e1-22b8-40e9-b398-2883ced5fdde"
+        },
+        "performedPeriod": {
+          "start": "2013-08-21T23:17:40+00:00",
+          "end": "2013-08-21T23:54:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/2755b4a9-b53f-4b95-a715-ddd5241b8d8e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2755b4a9-b53f-4b95-a715-ddd5241b8d8e",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:13:52.618-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "301807007",
+              "display": "Removal of subcutaneous contraceptive"
+            }
+          ],
+          "text": "Removal of subcutaneous contraceptive"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/b08a17b9-a104-43a7-84b9-6e5b38ac3c82"
+        },
+        "performedPeriod": {
+          "start": "2014-08-20T23:17:40+00:00",
+          "end": "2014-08-20T23:41:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/6cc5c1c1-0c00-4f0d-8f7a-e283324bb9af",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6cc5c1c1-0c00-4f0d-8f7a-e283324bb9af",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:13:23.391-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428191000124101",
+              "display": "Documentation of current medications"
+            }
+          ],
+          "text": "Documentation of current medications"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/3a7688fc-28b9-4585-a2cf-4d7935286abf"
+        },
+        "performedPeriod": {
+          "start": "2015-05-20T23:17:40+00:00",
+          "end": "2015-05-20T23:32:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/e0bab224-a0cd-4330-be43-3b348f596591",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e0bab224-a0cd-4330-be43-3b348f596591",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:12:35.321-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428191000124101",
+              "display": "Documentation of current medications"
+            }
+          ],
+          "text": "Documentation of current medications"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/faf0faa6-5da5-4ad5-9f48-e0ea375ea51f"
+        },
+        "performedPeriod": {
+          "start": "2017-10-25T23:17:40+00:00",
+          "end": "2017-10-25T23:32:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/0fcd1cec-3d38-477a-865d-db0d416932cf",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0fcd1cec-3d38-477a-865d-db0d416932cf",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:10:43.778-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428191000124101",
+              "display": "Documentation of current medications"
+            }
+          ],
+          "text": "Documentation of current medications"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/c58726fe-9872-4101-8333-c4248cb0424d"
+        },
+        "performedPeriod": {
+          "start": "2018-10-31T23:17:40+00:00",
+          "end": "2018-10-31T23:32:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/5c645743-674d-4386-8a46-eedf1bc648d5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5c645743-674d-4386-8a46-eedf1bc648d5",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:08:35.756-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428191000124101",
+              "display": "Documentation of current medications"
+            }
+          ],
+          "text": "Documentation of current medications"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/218ea9bc-5afb-44e0-aafd-0d2ea67814a0"
+        },
+        "performedPeriod": {
+          "start": "2012-12-26T23:17:40+00:00",
+          "end": "2012-12-26T23:32:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/bfb12671-5c82-40c0-996d-ee4bec5b4eb3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "bfb12671-5c82-40c0-996d-ee4bec5b4eb3",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:05:12.104-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73761001",
+              "display": "Colonoscopy"
+            }
+          ],
+          "text": "Colonoscopy"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/f6d00844-b493-480f-94c8-e912239a77e8"
+        },
+        "performedPeriod": {
+          "start": "2014-05-14T23:17:40+00:00",
+          "end": "2014-05-14T23:50:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://launch.smarthealthit.org/v/r4/fhir/Procedure/5b239bce-9b7b-4352-9de7-e12cd89ce79c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5b239bce-9b7b-4352-9de7-e12cd89ce79c",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:04:56.385-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "755621000000101",
+              "display": "Replacement of subcutaneous contraceptive"
+            }
+          ],
+          "text": "Replacement of subcutaneous contraceptive"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/97820e38-a024-4498-b55c-64d76b67b4ec"
+        },
+        "performedPeriod": {
+          "start": "2011-10-26T23:17:40+00:00",
+          "end": "2011-10-26T23:55:40+00:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    }
+  ]
+}

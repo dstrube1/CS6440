@@ -1,0 +1,60 @@
+- Alabama saw a sharp rise in cases from May to July 2020, then a leveling off in August, then a less sharp rise from September to November, then leveling off again. Number of deaths rose sharply from May 2020 to about December, then started leveling off.
+
+- Arizona saw a sharp rise in cases from May to July 2020, and again from August to November, then leveling off in December, but seemed to have a slight uptick in February 2021. The number of deaths matched this pattern, but less dramatically.
+
+- Colorado saw a sharp rise in cases from April to November 2020, then leveled off until a slight uptick in February 2021. There was a steady rise in deaths from April to June, then a sharp rise, then leveling off between November and December with slight uptick in starting in January 2021. Note, there seems to be a slight gap of data in December.
+
+- Connecticut saw a sharp rise in cases from May to November 2020, then leveled off. The number of deaths rose slowly from April to June, then rose sharply until December, then leveled off.
+
+- Deleware saw a sharp rise in cases from May to December 2020, then leveled off. The number of deaths rose slowly from May to June, there are a couple gaps between June and August, but there is clearly a sharp rise from July to December, then leveling off.
+
+- Federated States of Micronesia had 0 cases until January 2021 when they got 1 case. There are no reported deaths there at this time.
+
+- Georgia saw a sharp rise in cases from May to July 2020, then leveling off, then a rise from September to December, then leveling off again. The number of rose steadily from May to February, with a discrepancy in November when the number seems to have dropped slightly, presumably from some error in reporting.
+
+- Idaho saw a nearly vertical rise in cases from April to July 2020, then a steady rise after that. The number of deaths followed this patten.
+
+- Illinois a steady rise in cases from May 2020 to February 2021, rising slightly in June and leveling off slightly in November. The number of deaths followed this pattern with the rise in June and leveling off in November appearing a little more dramatically.
+
+- Kentucky saw a sharp rise in cases from May to July 2020, then slowly leveled off. The number of deaths followed a similar pattern, although thankfully not as sharp a rise starting out.
+
+- Massachusetts had a linear rise in cases from May to June 2020, then sharply rose from June to November, then leveled off. The number of deaths had a similar pattern, but not as sharp a rise between June and December.
+
+- Maine saw a sharp rise in cases from May to November 2020, then leveled off. The number of deaths followed this pattern, although there seem to be some gaps in the data in December 2020 and January 2021.
+
+- Michigan saw a sharp rise in cases from May to November 2020, then leveled off. The number of deaths rose slowly from May to June, then sharply from June to December, then leveled off.
+
+- Northern Mariana Islands saw a linear rise in cases from May 2020 to February 2021. Only 2 deaths were reported over that time.
+
+- Mississippi saw a linear rise in cases and deaths from May 2020 to February 2021.
+
+- Montana saw a sharp rise in cases from May to November 2020 before leveling off. The number of deaths followed this pattern.
+
+- North Carolina saw a sharp rise in cases from March to July 2020, then a linear rise before leveling off in November. The number of deaths on rose sharply from March to May, then followed the pattern of cases.
+
+- New Jersey had some data in May, then a large gap from May 2020 to January 2021 when the data shows an increase in the number of cases and number of deaths similar to that found in other states. Note that this is in the data from healthdata.gov, whereas the data in the CDC's Provisional Death Counts for Coronavirus Disease 2019 (CDC 2021)
+https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm
+
+- New York saw a sharp rise in cases between May and November 2020, the leveled off after that. The number of deaths had a sharp rise between July 2020 and January 2021. There was also a gap in the data in June.
+
+- Ohio saw a sharp rise in cases from April to November 2020. The number of deaths rose less sharply compared to the number of cases, but still sharply between June and November. There seems to be some gaps in the death numbers data in February.
+
+- Oklahoma saw a sharp rise in cases from April to July 2020, then a steady rise onward. The number of deaths follows this pattern. There seems to be a gap in the data around late November / early December.
+
+- Oregon saw sharp rises in cases from May to July 2020 and from August to November, then leveled off. The number of deaths followed this pattern.
+
+- Puerto Rico's data for cases seems erroneous. There was a sharp rise from May to August 2020, but then from October to December, there seem to be two conflicting sets of data overlapping each other. This is probably due to some error in data collection that was resolved in January 2021. The number of deaths rose sharply from May to August, then steadily onward.
+
+- Republic of the Marshall Islands had 0 cases from May to November 2020, then 2 in November, and 4 in December. There were no deaths reported.
+
+- Tennessee saw a sharp rise in cases from May to July 2020, then cases rose steadily after that. The number of deaths followed this pattern.
+
+- Utah saw a sharp rise of cases from May to October 2020, then leveled off. The number of deaths followed this pattern.
+
+- Virginia saw a steep linear rise of cases from April to November 2020, then leveled off. The number of deaths was bumpy, but also leveled off around the same time as the number of cases.
+
+- Wisconsin saw a sharp rise of cases from May to November 2020, then leveled off, with a slight uptick in February. The number of deaths followed this pattern.
+
+- Wyoming's pattern of cases and deaths is very similar to that of Wisconsin, except in in December the data for deaths gets a little spotty.
+
+### Overall, the pattern for most states is the same: sharp rise of cases and deaths in April and May, then leveling off in the fall and winter of 2020.
