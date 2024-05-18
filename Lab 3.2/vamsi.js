@@ -1,5 +1,5 @@
 //adapted from the cerner smart on fhir guide. updated to utalize client.js v2 library and FHIR R4
- 
+  
 //create a fhir client based on the sandbox enviroment and test paitnet.
 const client = new FHIR.client({
   serverUrl: "https://r4.smarthealthit.org",
