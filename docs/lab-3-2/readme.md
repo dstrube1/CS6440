@@ -2,7 +2,7 @@ https://github.gatech.edu/pages/dstrube3/lab-3-2/
 
 =>
 
-https://github.com/pages/dstrube1/CS6440/Lab3.2/lab-3-2/
+https://dstrube1.github.io/CS6440/lab-3-2/
 
 ?
 
